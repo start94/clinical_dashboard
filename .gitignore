@@ -20,3 +20,28 @@ modello_dimissione.joblib
 *.json
 *.xlsx
 architettura.txt
+
+# file .env
+.env
+# File di log
+*.log
+# File di database
+*.db
+# File di output temporanei
+*.tmp
+# File di backup
+*.bak
+# File di test coverage
+.coverage
+htmlcov/
+.tox/
+.nox/   
+# File di editor specifici
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+# architettura.txt
+.txt
+
+
