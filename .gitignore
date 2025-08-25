@@ -1,0 +1,22 @@
+# File: .gitignore
+
+# Ambiente virtuale e file di cache di Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# File di sistema specifici del sistema operativo
+.DS_Store
+
+# File di configurazione con secrets
+config.yaml
+
+# File generati dall'applicazione (modelli, ecc.)
+modello_dimissione.joblib
+
+# File di dati e documentazione da ignorare
+*.csv
+*.json
+*.xlsx
+architettura.txt

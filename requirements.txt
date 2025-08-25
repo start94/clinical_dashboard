@@ -1,0 +1,29 @@
+# File: requirements.txt
+
+# Core per Streamlit e dati
+streamlit
+pandas
+matplotlib
+python-dateutil
+numpy
+PyMuPDF
+
+# Autenticazione
+streamlit-authenticator
+PyYAML
+
+# Database
+pymongo
+jsonschema
+
+# Machine Learning
+scikit-learn
+joblib
+xgboost
+lightgbm
+
+# NLP
+spacy
+scispacy
+# Link diretto per il modello linguistico di scispacy
+https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_sm-0.5.4.tar.gz
